@@ -1,17 +1,8 @@
 package org.example.Metier;
 
-import org.example.Dao.DaoImpl;
 import org.example.Dao.IDao;
 
 public class MetierImpl implements IMetier {
-
-    /**
-     * to inject an object into the dao variable
-     * of a class that implements the IDao interface
-     */
-    public MetierImpl(IDao dao) {
-        this.dao = dao;
-    }
 
     // Couplage Faible
     private IDao dao = null;
@@ -22,5 +13,12 @@ public class MetierImpl implements IMetier {
         return T;
     }
 
+    /**
+     * to inject an object into the dao variable
+     * of a class that implements the IDao interface
+     */
+    public void setDao(IDao dao){
+        this.dao = dao;
+    }
 
 }

@@ -9,10 +9,8 @@ public class Presentation {
          * Injection of dependencies by static instantiation
          */
         DaoImpl dao = new DaoImpl();
-        /**
-         * Injection via constructor
-         */
-        MetierImpl metier = new MetierImpl(dao);
+        MetierImpl metier = new MetierImpl();
+        metier.setDao(dao); // Injection via the setter
         System.out.println(metier.calcul());
     }
 }
