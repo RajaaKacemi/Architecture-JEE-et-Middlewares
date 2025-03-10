@@ -1,4 +1,4 @@
-package org.example.Metier;
+package org.example.metier;
 
 public interface IMetier {
     double calcul();
