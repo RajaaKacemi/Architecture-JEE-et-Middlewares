@@ -1,5 +1,3 @@
----
-
 # **TP : Inversion de Contrôle et Injection des Dépendances avec Spring**
 
 ## 📌 **Objectif du TP**
