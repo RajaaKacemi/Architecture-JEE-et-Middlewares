@@ -1,5 +1,3 @@
-Tu peux structurer ton fichier `README.md` en plusieurs sections claires pour bien expliquer ton TP sur l'inversion de contrôle (IoC) et l'injection de dépendances avec Spring. Voici une suggestion de structure :
-
 ---
 
 # **TP : Inversion de Contrôle et Injection des Dépendances avec Spring**
