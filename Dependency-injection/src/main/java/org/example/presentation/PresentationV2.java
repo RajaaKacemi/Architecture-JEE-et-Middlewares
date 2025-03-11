@@ -11,6 +11,10 @@ public class PresentationV2 {
         try {
             Scanner scanner = new Scanner(new File("config.txt"));
 
+            /**
+             * On peut refaire ça avec le framework spring
+             *
+             */
             String doaClassname = scanner.nextLine();
             Class cDao = Class.forName(doaClassname);
             IDao dao = (IDao) cDao.newInstance();
