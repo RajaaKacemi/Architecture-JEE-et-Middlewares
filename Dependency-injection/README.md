@@ -17,7 +17,7 @@ Chaque solution est implémentée dans une branche Git distincte.
 
 ## 📂 **Structure du projet**
 ```
-📦 MonProjet
+📦 Dependency-injection
  ┣ 📂 src/main/java/org/example
  ┃ ┣ 📂 dao       # Couche DAO  
  ┃ ┣ 📂 metier    # Couche Métier  
