@@ -1,5 +1,6 @@
 package org.example.Metier;
 
+import org.example.Dao.DaoImpl;
 import org.example.Dao.IDao;
 
 public class MetierImpl implements IMetier {
@@ -11,6 +12,10 @@ public class MetierImpl implements IMetier {
     public double calcul() {
         double T = dao.getData() * 23;
         return T;
+    }
+
+    public void setDao(DaoImpl dao) {
+        this.dao = dao;
     }
 
 }
